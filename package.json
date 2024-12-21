@@ -1,0 +1,27 @@
+{
+  "name": "udemy_bdd_cucumber_playwright",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "cucumber-js --require-module ts-node/register --require features/**/*.ts --require step-definitions/**/*.ts --format summary features/**/*.feature",
+    "testWithReport": "cucumber-js --require-module ts-node/register --require features/**/*.ts --require step-definitions/**/*.ts -f json:generated-report/cucumber_report.json"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@cucumber/cucumber": "^11.1.1",
+    "@types/chai": "^5.0.1",
+    "@types/node": "^22.10.2",
+    "@types/prettier": "^3.0.0",
+    "chai": "^4.3.7",
+    "cucumber-html-reporter": "^7.2.0",
+    "playwright": "^1.49.1",
+    "prettier": "^3.4.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.7.2"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.7"
+  }
+}

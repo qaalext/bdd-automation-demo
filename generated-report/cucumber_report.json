@@ -1,0 +1,1132 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "view-product-details;display-product-name",
+        "keyword": "Scenario",
+        "line": 4,
+        "name": "Display product name",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 161158799
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "I am logged in and on the inventory page",
+            "match": {
+              "location": "step-definitions\\inventory-steps.ts:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 605853500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "I select the product \"Sauce Labs Backpack\"",
+            "match": {
+              "location": "step-definitions\\inventory-steps.ts:18"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 51411200
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "The product name should be \"Sauce Labs Backpack\"",
+            "match": {
+              "location": "step-definitions\\inventory-details-steps.ts:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 10068299
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 32691699
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@productDetails",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "view-product-details;display-product-description",
+        "keyword": "Scenario",
+        "line": 9,
+        "name": "Display product description",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 117654200
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 10,
+            "name": "I am logged in and on the inventory page",
+            "match": {
+              "location": "step-definitions\\inventory-steps.ts:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 570681900
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 11,
+            "name": "I select the product \"Sauce Labs Backpack\"",
+            "match": {
+              "location": "step-definitions\\inventory-steps.ts:18"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 48845699
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 12,
+            "name": "The product description should contain \"laptop and tablet protection\"",
+            "match": {
+              "location": "step-definitions\\inventory-details-steps.ts:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 12143799
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 28260199
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@productDetails",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "view-product-details;display-product-price",
+        "keyword": "Scenario",
+        "line": 14,
+        "name": "Display product price",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 125898299
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 15,
+            "name": "I am logged in and on the inventory page",
+            "match": {
+              "location": "step-definitions\\inventory-steps.ts:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 651725799
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 16,
+            "name": "I select the product \"Sauce Labs Backpack\"",
+            "match": {
+              "location": "step-definitions\\inventory-steps.ts:18"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 50154899
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 17,
+            "name": "The product price should be \"$29.99\"",
+            "match": {
+              "location": "step-definitions\\inventory-details-steps.ts:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6303800
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 28719200
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@productDetails",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "view-product-details;display-product-image",
+        "keyword": "Scenario",
+        "line": 19,
+        "name": "Display product image",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 121974200
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 20,
+            "name": "I am logged in and on the inventory page",
+            "match": {
+              "location": "step-definitions\\inventory-steps.ts:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 538910400
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 21,
+            "name": "I select the product \"Sauce Labs Backpack\"",
+            "match": {
+              "location": "step-definitions\\inventory-steps.ts:18"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 53561499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 22,
+            "name": "The product image should be displayed and have the correct src",
+            "match": {
+              "location": "step-definitions\\inventory-details-steps.ts:29"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 9621500
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 28120699
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@productDetails",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "view-product-details;display-the-\"add-to-cart\"-button",
+        "keyword": "Scenario",
+        "line": 24,
+        "name": "Display the \"add to cart\" button",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 114233799
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 25,
+            "name": "I am logged in and on the inventory page",
+            "match": {
+              "location": "step-definitions\\inventory-steps.ts:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 523769199
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 26,
+            "name": "I select the product \"Sauce Labs Backpack\"",
+            "match": {
+              "location": "step-definitions\\inventory-steps.ts:18"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 50519599
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 27,
+            "name": "The add to cart button should be displayed",
+            "match": {
+              "location": "step-definitions\\inventory-details-steps.ts:35"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 7974100
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 32311899
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@productDetails",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "view-product-details",
+    "line": 2,
+    "keyword": "Feature",
+    "name": "View Product Details",
+    "tags": [
+      {
+        "name": "@productDetails",
+        "line": 1
+      }
+    ],
+    "uri": "features\\inventory-details.feature"
+  },
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "inventory-action;select-an-inventory-item",
+        "keyword": "Scenario",
+        "line": 4,
+        "name": "Select an inventory item",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 116394900
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "I am logged in and on the inventory page",
+            "match": {
+              "location": "step-definitions\\inventory-steps.ts:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 533651799
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "I select the product \"Sauce Labs Backpack\"",
+            "match": {
+              "location": "step-definitions\\inventory-steps.ts:18"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 42606200
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "I should be redirected to the product details page",
+            "match": {
+              "location": "step-definitions\\inventory-steps.ts:28"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 12450499
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 30424199
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@inventory",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "inventory-action;add-an-item-to-the-shopping-cart",
+        "keyword": "Scenario",
+        "line": 9,
+        "name": "Add an item to the shopping cart",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 118088899
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 10,
+            "name": "I am logged in and on the inventory page",
+            "match": {
+              "location": "step-definitions\\inventory-steps.ts:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 568480300
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 11,
+            "name": "i add the product \"Sauce Labs Backpack\" to the shopping cart",
+            "match": {
+              "location": "step-definitions\\inventory-steps.ts:23"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 31022899
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 12,
+            "name": "The shopping cart should display a badge indicating that an item was added",
+            "match": {
+              "location": "step-definitions\\inventory-steps.ts:35"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6768200
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 28248299
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@inventory",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "inventory-action",
+    "line": 2,
+    "keyword": "Feature",
+    "name": "Inventory action",
+    "tags": [
+      {
+        "name": "@inventory",
+        "line": 1
+      }
+    ],
+    "uri": "features\\inventory.feature"
+  },
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "login-action;login-with-valid-credentials",
+        "keyword": "Scenario",
+        "line": 4,
+        "name": "Login with valid credentials",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 118090499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "I am on the login page",
+            "match": {
+              "location": "step-definitions\\login-steps.ts:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1491925999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "I login with \"STANDARD_USERNAME\" and \"STANDARD_PASSWORD\"",
+            "match": {
+              "location": "step-definitions\\login-steps.ts:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 83702499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "I should see the inventory page",
+            "match": {
+              "location": "step-definitions\\login-steps.ts:26"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6675799
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 27509700
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@login",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "login-action;login-with-invalid-credentials",
+        "keyword": "Scenario",
+        "line": 9,
+        "name": "Login with invalid credentials",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 175152200
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 10,
+            "name": "I am on the login page",
+            "match": {
+              "location": "step-definitions\\login-steps.ts:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 428476800
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 11,
+            "name": "I login with \"INVALID_USERNAME\" and \"INVALID_PASSWORD\"",
+            "match": {
+              "location": "step-definitions\\login-steps.ts:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 67604999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 12,
+            "name": "I should receive an error message",
+            "match": {
+              "location": "step-definitions\\login-steps.ts:33"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6206500
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 26078300
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@login",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "login-action;try-to-login-with-all-the-accounts-available",
+        "keyword": "Scenario Outline",
+        "line": 21,
+        "name": "Try to login with all the accounts available",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 121667900
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 15,
+            "name": "I am on the login page",
+            "match": {
+              "location": "step-definitions\\login-steps.ts:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 422811499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 16,
+            "name": "I login with \"STANDARD_USERNAME\" and \"STANDARD_PASSWORD\"",
+            "match": {
+              "location": "step-definitions\\login-steps.ts:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 87365100
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 17,
+            "name": "I should see the inventory page",
+            "match": {
+              "location": "step-definitions\\login-steps.ts:26"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 7360800
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 28948500
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@login",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "login-action;try-to-login-with-all-the-accounts-available",
+        "keyword": "Scenario Outline",
+        "line": 22,
+        "name": "Try to login with all the accounts available",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 118364500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 15,
+            "name": "I am on the login page",
+            "match": {
+              "location": "step-definitions\\login-steps.ts:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 476439000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 16,
+            "name": "I login with \"LOCKED_OUT_USERNAME\" and \"STANDARD_PASSWORD\"",
+            "match": {
+              "location": "step-definitions\\login-steps.ts:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 65063000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 17,
+            "name": "I should see the inventory page",
+            "match": {
+              "location": "step-definitions\\login-steps.ts:26"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 30004149400,
+              "error_message": "locator.waitFor: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('.title') to be visible\u001b[22m\n\n    at C:\\Users\\arend\\OneDrive\\Desktop\\udemy_bdd_cucumber_playwright\\step-definitions\\login-steps.ts:28:46\n    at C:\\Users\\arend\\OneDrive\\Desktop\\udemy_bdd_cucumber_playwright\\step-definitions\\login-steps.ts:8:71\n    at __awaiter (C:\\Users\\arend\\OneDrive\\Desktop\\udemy_bdd_cucumber_playwright\\step-definitions\\login-steps.ts:4:12)\n    at World.<anonymous> (C:\\Users\\arend\\OneDrive\\Desktop\\udemy_bdd_cucumber_playwright\\step-definitions\\login-steps.ts:26:51)"
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 26260200
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@login",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "login-action;try-to-login-with-all-the-accounts-available",
+        "keyword": "Scenario Outline",
+        "line": 23,
+        "name": "Try to login with all the accounts available",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 117696400
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 15,
+            "name": "I am on the login page",
+            "match": {
+              "location": "step-definitions\\login-steps.ts:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 395187900
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 16,
+            "name": "I login with \"VISUAL_USERNAME\" and \"STANDARD_PASSWORD\"",
+            "match": {
+              "location": "step-definitions\\login-steps.ts:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 82274199
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 17,
+            "name": "I should see the inventory page",
+            "match": {
+              "location": "step-definitions\\login-steps.ts:26"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 9006300
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 32067799
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@login",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "login-action",
+    "line": 2,
+    "keyword": "Feature",
+    "name": "Login Action",
+    "tags": [
+      {
+        "name": "@login",
+        "line": 1
+      }
+    ],
+    "uri": "features\\login.feature"
+  },
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "view-products-in-the-shopping-cart;display-product-name-in-the-shopping-cart",
+        "keyword": "Scenario",
+        "line": 4,
+        "name": "Display product name in the shopping cart",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 120285400
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "I am logged in and on the inventory page",
+            "match": {
+              "location": "step-definitions\\inventory-steps.ts:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 510802300
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "i add the product \"Sauce Labs Backpack\" to the shopping cart",
+            "match": {
+              "location": "step-definitions\\inventory-steps.ts:23"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 39800900
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "The product name from the shopping cart should be \"Sauce Labs Backpack\"",
+            "match": {
+              "location": "step-definitions\\shopping-cart-steps.ts:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 40848200
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 27027600
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@shoppingCart",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "view-products-in-the-shopping-cart;display-product-price-in-the-shopping-cart",
+        "keyword": "Scenario",
+        "line": 9,
+        "name": "Display product price in the shopping cart",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 124290999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 10,
+            "name": "I am logged in and on the inventory page",
+            "match": {
+              "location": "step-definitions\\inventory-steps.ts:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 557722300
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 11,
+            "name": "i add the product \"Sauce Labs Backpack\" to the shopping cart",
+            "match": {
+              "location": "step-definitions\\inventory-steps.ts:23"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 47813499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 12,
+            "name": "The product price of the product \"Sauce Labs Backpack\" should be \"$29.99\"",
+            "match": {
+              "location": "step-definitions\\shopping-cart-steps.ts:18"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 35436700
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 25208800
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@shoppingCart",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "view-products-in-the-shopping-cart;display-the-checkout-button-for-product-in-the-shopping-cart",
+        "keyword": "Scenario",
+        "line": 14,
+        "name": "Display the checkout button for product in the shopping cart",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 121131500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 15,
+            "name": "I am logged in and on the inventory page",
+            "match": {
+              "location": "step-definitions\\inventory-steps.ts:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 507344699
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 16,
+            "name": "i add the product \"Sauce Labs Backpack\" to the shopping cart",
+            "match": {
+              "location": "step-definitions\\inventory-steps.ts:23"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 37898999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 17,
+            "name": "The checkout button is displayed for the item in the shopping cart",
+            "match": {
+              "location": "step-definitions\\shopping-cart-steps.ts:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 36873299
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 26787700
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@shoppingCart",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "view-products-in-the-shopping-cart",
+    "line": 2,
+    "keyword": "Feature",
+    "name": "View Products in the Shopping Cart",
+    "tags": [
+      {
+        "name": "@shoppingCart",
+        "line": 1
+      }
+    ],
+    "uri": "features\\shopping-cart.feature"
+  }
+]

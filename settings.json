@@ -1,0 +1,8 @@
+{
+   "cucumberautocomplete.steps": [
+    "./step-definitions/*.ts", // Path to your step definitions in TypeScript
+    "node_modules/qa-lib/src/step_definitions/*.ts" // Adjust to your project structure if applicable
+    ],
+    "cucumberautocomplete.strictGherkinCompletion": true
+
+}
