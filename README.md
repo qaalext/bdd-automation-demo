@@ -60,6 +60,7 @@ To install all the dependencies for this project, use the following command:
 
 ```bash
 npm install
+npm install playwright chai@4.3.7 prettier @cucumber/cucumber cucumber-html-reporter @types/chai @types/prettier ts-node typescript --save-dev
 ```
 
 ---
